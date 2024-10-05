@@ -1,0 +1,189 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    font-family:cursive;
+    letter-spacing: 0.50px;
+}
+
+header{
+    padding: 10px;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    margin: 6px 0px;
+}
+
+header h1 , header a{
+    text-align: center;
+    font-size: 6.6vh;
+    margin: 10px;
+    text-decoration: none;
+    color: #1b1b1b;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 95px;
+    width: 100%;
+    margin: 10px 0px;
+    border-bottom: 1.2px solid #111;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+ul li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color:crimson;
+    font-size: 3vh;
+}
+
+li a:hover{
+    color:darkred;
+}
+
+.main{
+   
+    width: 100%;
+    display: flex;
+}
+
+.main1{
+    width: 50%;
+    padding: 50px;
+}
+
+.main1 img{
+   align-items: center;
+   width: 100%;
+   border-radius: 10%;
+   margin: 20px 0px;
+}
+
+
+
+.main2{
+    
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    padding: 10rem 0rem;
+    gap: 10px;
+}
+
+.main2 h1{
+    font-size: 6.6vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 0px; 
+}
+
+.main2 p {
+    font-size: 3vh;
+    color:darkgray;
+    margin-bottom: 25.5px;
+}
+
+.main2 a{
+    background-color: red;
+    padding: 10px 30px;
+    margin: 10px 0px;
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+
+.card{
+    width:fit-content;
+    box-shadow: 7px 6px 30px black;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    border-radius: 10%;
+}
+
+.card img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.about{
+    columns: 500px;
+    font-size: medium;
+    padding: 25px;
+    margin: 20px 0px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #111;
+    color: aliceblue;
+    padding: 10px 0px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 35px;
+}
+
+
+
+.abtn{
+    background-color: red;
+    padding: 10px 30px;
+    margin: 10px 0px;
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+form{
+  width: 35rem;
+  background-color:  lightgray;
+  padding: 40px 20px;
+  margin: auto;
+border-radius: 15px;
+    display: grid;
+    place-self: center;
+    gap: 20px;
+    
+}
+
+form input{
+    width: 100%;
+    padding: 6.6px 6px;
+    border-radius: 5.1px;
+    box-shadow: 1px 1px 8px gray;
+}
+
+form Button{
+    background-color: #111;
+    color: #eee;
+    padding: 6px 0px;
+    width: 100%;
+    border-radius: 4.1px;
+}
